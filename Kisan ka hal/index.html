@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/first.css">
+  <link href="css/slider.css" type="text/css" rel="stylesheet">
+  <link href="css/nav.css" type="text/css" rel="stylesheet">
+  <link href="css/drop.css" type="text/css" rel="stylesheet">
+  
+  </head>
+  
+<style>
+.container
+{
+    width:100px
+    background-color:rgba(149, 165, 166,0.5);
+	border-radius:10px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:-450px;
+	margin-left: 600px;
+}
+</style>
+
+<body>
+<div class="container-fluid">
+	<div id="logo">
+		<img src="photo/The-plough-manufacturer.jpg" align="left" height="60px" width="100px" hspace="15">
+		<a href="location.html"><img src="icons/location.png" align="right" height="80px" width="80px" hspace="15"></a>
+	</div>
+<div id="heading">
+	<center>Kisan ka hal</center>
+</div>
+
+<div id="weather">
+	<a class="weatherwidget-io" href="https://forecast7.com/en/21d4783d98/sambalpur/" data-label_1="SAMBALPUR" data-label_2="WEATHER" data-theme="blue-mountains" >SAMBALPUR WEATHER</a>
+<script>
+	!function(d,s,id)
+	{
+		var js,fjs=d.getElementsByTagName(s)[0];
+		if(!d.getElementById(id))
+			{
+				js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);
+			}
+	}(document,'script','weatherwidget-io-js');
+</script>
+</div>
+</div>
+
+	<nav id="nav">
+        <ul id='navbar'>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="dropdown">
+				<button class="dropbtn"><b>Services</b></button>
+				<div class="dropdown-content">
+				 
+				<a href="http://agricoop.gov.in/" target="blank">Govt. Schemes</a>
+				<a href="https://seednet.gov.in/" target="blank">Seed Dealer</a>
+				<a href="https://pmfby.gov.in/" target="blank">PMFBY</a>
+				<a href="https://cacp.dacnet.nic.in/default.aspx" target="blank">MSP</a>
+							 
+				</div>
+			</div>
+			<a href="https://kisankahaal.simdif.com/page-40217951.html">Any Query?</a>
+			
+			<a href="tel:1-555-555-1212">Kishan Call center</a>
+			<a href="video.html">Videos</a>
+</div>
+
+<span id="option" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; option</span>
+
+<script>
+function openNav() 
+{
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="#">Contact</a></li>
+			<li>
+				<div id='MicrosoftTranslatorWidget' class='Dark' style='color:white;background-color:#555555'></div>
+					<script type='text/javascript'>
+						setTimeout(function()
+						{
+						{
+							var s=document.createElement('script');s.type='text/javascript';s.charset='UTF-8';s.src=((location && location.href && location.href.indexOf('https') == 0)?'https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+'/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&ctf=False&ui=true&settings=Manual&from=';var p=document.getElementsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.firstChild); 
+						}
+						},0);
+					</script>
+				<div>
+			</li>
+        </ul>
+    </nav>
+
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="photo/1.jpg" style="width:100%">
+ </div>
+
+<div class="mySlides fade">
+  <img src="photo/2.jpg" style="width:100%">
+  <div class="text">Some of us grow  up playing with tractors,<br>
+the lucky ones still do.
+</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="photo/3.jpg" style="width:100%">
+  <div class="text">The most people this is just a dirt,<br>
+TO a farmer this is potential.</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() 
+	{
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+	    var dots = document.getElementsByClassName("dot");
+	    for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+    }
+  slideIndex++;
+  if (slideIndex > slides.length) 
+  {
+  slideIndex = 1
+  }    
+  for (i = 0; i < dots.length; i++) 
+  {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 8000); // Change image every 8 seconds
+}
+</script>
+
+<div class="container">
+<!-- 24-7 Press Release Newswire Landing Page Widget Code Starts Here --> 
+	 <script type="text/javascript" src="https://news.24-7pressrelease.com/247pr-news-widget.js?widgettitle=&amp;categories=127,128,129,&amp;showRelease=1&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=0&amp;headlinecolor=2d57a1&amp;briefcolor=666666&amp;textcolor=333333&amp;typeface=arial&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=dotted&amp;showimages=1&amp;numstories=5&amp;bgcolor=ffffff&amp;urldest=local">
+	</script>
+<!-- 24-7 Press Release Newswire Landing Page Widget Code Ends Here -->  
+</div>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	
+	<footer>
+		<div id="footer">Designed by Bright techs</div>
+	</footer>
+	
+</body>
+</html>
